@@ -24,18 +24,30 @@ def disconnectDrives():
 	
 def mapDrive(driveLetter, server, share, username, password):
 	# map drive
-	cmd = "net use " + driveLetter + ": \\\\" + server + "\\" + share + " /user:" + username + " " + password + " /PERSISTENT:No"
 	note = ("Loading " + driveLetter + " drive:  ")
-	print cmd
-	#output = runCommand(cmd)
-	#if 'success' in output:
-    #            print(note + "Success")
-	#elif 'denied' in output:
-	#	print(note + "Failed: No access")
-	#elif "not found" in output:
-	#	print(note + "Failed: Server Down / Not Found")
-	#else:
-	#	print (note + "FAILED: " + output)
+	if sys.platform == "linux2":
+		cmd = "mount.cifs //" + server + "/" + share + " /home/jason/NetworkDrives/" + driveLetter + " -o user=" + username + ",pass=" + password
+		output = runCommand(cmd)
+		print output
+	elif sys.platform == "win32": 
+		cmd = "net use " + driveLetter + ": \\\\" + server + "\\" + share + " /user:" + username + " " + password + " /PERSISTENT:No"
+		output = runCommand(cmd)
+		if 'success' in output:
+	    		result = "SUCCESS"
+
+		elif 'denied' in output:
+				result = "DENIED"
+
+		elif "not found" in output:
+				result = "NOTFOUND"
+
+		else:
+				result = "FAILEDUNKNOWN"
+
+	elif sys.platform == "darwin":
+		pass
+	#
+	
 
 def connectToPWSDrives(username, password):
 	# Ensure all previous drives are disconnected
