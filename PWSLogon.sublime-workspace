@@ -1,0 +1,985 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ui",
+				"ui  (variable)"
+			],
+			[
+				"Au",
+				"AuthorController [class]"
+			],
+			[
+				"S",
+				"SlideController [class]"
+			],
+			[
+				"Ed",
+				"EditController [class]"
+			],
+			[
+				"Co",
+				"CopyController [class]"
+			],
+			[
+				"P",
+				"ProjectController [class]"
+			],
+			[
+				"con",
+				"controller [package]"
+			],
+			[
+				"pro",
+				"projectController"
+			],
+			[
+				"ge",
+				"getNode( ?i : Int ) : domtools.Node"
+			],
+			[
+				"c",
+				"controller [package]"
+			],
+			[
+				"app",
+				"appendChild(...) : js.w3c.level3.Node"
+			],
+			[
+				"bo",
+				"body : js.w3c.html5.HTMLElement"
+			],
+			[
+				"Q",
+				"Query [class]"
+			],
+			[
+				"set",
+				"setText(...) : domtools.Query"
+			],
+			[
+				"add",
+				"addClass(...) : domtools.Query"
+			],
+			[
+				"T",
+				"Traversing [class]"
+			],
+			[
+				"vi",
+				"view [package]"
+			],
+			[
+				"A",
+				"Animation [class]"
+			],
+			[
+				"re",
+				"replace(...) : String"
+			],
+			[
+				"at",
+				"attr( attName : String ) : String"
+			],
+			[
+				"fin",
+				"firstChild : js.w3c.level3.Node"
+			],
+			[
+				"att",
+				"attr( attName : String ) : String"
+			],
+			[
+				"curr",
+				"currentTarget : EventTarget"
+			],
+			[
+				"cu",
+				"currentTarget : EventTarget"
+			],
+			[
+				"cli",
+				"click(...) : domtools.Query"
+			],
+			[
+				"get",
+				"get(...) : MenuItem>"
+			],
+			[
+				"inn",
+				"innerHTML() : String"
+			],
+			[
+				"it",
+				"items : MenuItem>"
+			],
+			[
+				"id",
+				"id : String"
+			],
+			[
+				"i",
+				"id : String"
+			],
+			[
+				"w",
+				"w3c [package]"
+			],
+			[
+				"clic",
+				"click(...) : domtools.Query"
+			],
+			[
+				"Ev",
+				"EventManagement [class]"
+			],
+			[
+				"tr",
+				"trace"
+			],
+			[
+				"tra",
+				"trace"
+			],
+			[
+				"pa",
+				"parent() : domtools.Query"
+			],
+			[
+				"cl",
+				"click(...) : domtools.Query"
+			],
+			[
+				"E",
+				"EventManagement [class]"
+			],
+			[
+				"b",
+				"body : js.w3c.html5.HTMLElement"
+			],
+			[
+				"d",
+				"document : HTMLDocument"
+			],
+			[
+				"p",
+				"preventDefault() : Void"
+			],
+			[
+				"te",
+				"text : String"
+			],
+			[
+				"fi",
+				"firstChildren(...) : domtools.Query"
+			],
+			[
+				"fir",
+				"first() : domtools.Query"
+			],
+			[
+				"in",
+				"innerHTML() : String"
+			],
+			[
+				"ap",
+				"append(...) : domtools.Query"
+			],
+			[
+				"D",
+				"DOMManipulation [class]"
+			],
+			[
+				"setT",
+				"setText( text : String ) : Unknown<0>"
+			],
+			[
+				"s",
+				"set(...) : Void"
+			],
+			[
+				"addM",
+				"addMenuItem(...) : Void"
+			],
+			[
+				"me",
+				"menu [package]"
+			],
+			[
+				"u",
+				"ui [package]"
+			],
+			[
+				"int",
+				"interface"
+			],
+			[
+				"la",
+				"launcher : server.api.LauncherProxy"
+			],
+			[
+				"api",
+				"api"
+			],
+			[
+				"lau",
+				"launcherAPI [var]"
+			],
+			[
+				"server",
+				"server"
+			],
+			[
+				"Lib",
+				"Lib"
+			],
+			[
+				"Firebug",
+				"firebug"
+			],
+			[
+				"t",
+				"trace"
+			],
+			[
+				"l",
+				"logger() : js.node.MiddleWare"
+			],
+			[
+				"N",
+				"Node [class]"
+			],
+			[
+				"ch",
+				"childProcess : NodeChildProcessCommands"
+			],
+			[
+				"No",
+				"Node [class]"
+			],
+			[
+				"C",
+				"Context [class]"
+			],
+			[
+				"context",
+				"Context"
+			],
+			[
+				"setu",
+				"setupAPIContext [function]"
+			],
+			[
+				"po",
+				"port : String"
+			],
+			[
+				"fo",
+				"format( fmt : String ) : String"
+			],
+			[
+				"ad",
+				"address [var]"
+			],
+			[
+				"a",
+				"api [package]"
+			],
+			[
+				"lib",
+				"lib"
+			],
+			[
+				"cp",
+				"cp"
+			],
+			[
+				"ser",
+				"serverPort [var]"
+			],
+			[
+				"serv",
+				"serverAddress [var]"
+			],
+			[
+				"Node",
+				"Node"
+			],
+			[
+				"remoting",
+				"remoting [package]"
+			],
+			[
+				"rem",
+				"remoting [package]"
+			],
+			[
+				"j",
+				"join( sep : String ) : String"
+			],
+			[
+				"des",
+				"description : String"
+			],
+			[
+				"find",
+				"find(...) : domtools.Query"
+			],
+			[
+				"pre",
+				"prepend(...) : domtools.Query"
+			],
+			[
+				"n",
+				"nodeName : String"
+			],
+			[
+				"el",
+				"elements() : Iterator<Xml>"
+			],
+			[
+				"f",
+				"firstChild() : Xml"
+			],
+			[
+				"ta",
+				"tagName : js.w3c.DOMString"
+			],
+			[
+				"no",
+				"nodeName : js.w3c.DOMString"
+			],
+			[
+				"g",
+				"get(...) : AbstractCustomElement>>"
+			],
+			[
+				"ty",
+				"type : String"
+			],
+			[
+				"dis",
+				"display : String"
+			],
+			[
+				"di",
+				"display : String"
+			],
+			[
+				"ful",
+				"fullID : String"
+			],
+			[
+				"fu",
+				"fullID : String"
+			],
+			[
+				"for",
+				"formID [var]"
+			],
+			[
+				"form",
+				"formID"
+			],
+			[
+				"meta",
+				"meta"
+			],
+			[
+				"pare",
+				"parent() : js.w3c.level3.Node"
+			],
+			[
+				"firstc",
+				"firstChildren(...) : js.w3c.level3.Node"
+			],
+			[
+				"firstChild",
+				"firstChildElm"
+			],
+			[
+				"de",
+				"description : String"
+			],
+			[
+				"cm",
+				"cmd"
+			],
+			[
+				"ti",
+				"title : String"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"El",
+				"ElementManipulation [class]"
+			],
+			[
+				"domtools",
+				"KeyboardAutomationAction [flash.automation]"
+			],
+			[
+				"F",
+				"FieldInfo [class]"
+			],
+			[
+				"r",
+				"run() : Void"
+			],
+			[
+				"auto",
+				"autoform"
+			],
+			[
+				"displays",
+				"DisplayObject [flash.display]"
+			],
+			[
+				"has",
+				"hasChildNodes() : Bool"
+			],
+			[
+				"h",
+				"hasChildNodes() : Bool"
+			],
+			[
+				"firs",
+				"firstChild : js.w3c.level3.Node"
+			],
+			[
+				"pu",
+				"push( x : autoform.FieldInfo ) : Int"
+			],
+			[
+				"fie",
+				"fields"
+			],
+			[
+				"valid",
+				"validator [var]"
+			],
+			[
+				"le",
+				"level3 [package]"
+			],
+			[
+				"Qu",
+				"Query [class]"
+			],
+			[
+				"load",
+				"loadFromXml"
+			],
+			[
+				"aut",
+				"autoform"
+			],
+			[
+				"nod",
+				"nodeName : js.w3c.DOMString"
+			],
+			[
+				"len",
+				"length : Int"
+			],
+			[
+				"leng",
+				"length : Int"
+			],
+			[
+				"chi",
+				"children(...) : domtools.Query"
+			],
+			[
+				"filt",
+				"filter(...) : domtools.Query"
+			],
+			[
+				"info",
+				"insertBefore(...) : js.w3c.level3.Node"
+			],
+			[
+				"Tr",
+				"Traversing [class]"
+			],
+			[
+				"Lo",
+				"Log [class]"
+			],
+			[
+				"htm",
+				"innerHTML() : String"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "logon.py",
+			"settings":
+			{
+				"buffer_size": 1881,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Main.py",
+			"settings":
+			{
+				"buffer_size": 797,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gui/MainWindow.py",
+			"settings":
+			{
+				"buffer_size": 445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gui/forms/Ui_MainWindow.py",
+			"settings":
+			{
+				"buffer_size": 6744,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 259.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Snippet: html"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jason/.config/sublime-text-2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/home/jason/workspace/pwslogon/.Main.py~",
+		"/home/jason/Scripts/rsyncincremental",
+		"/home/jason/workspace/Vose-Video-Node/src/client/controller/AuthorController.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/controller/SlideController.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/controller/EditController.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/controller/CopyController.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/controller/VideoController.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/controller/ProjectController.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/Client.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/view/ui/menu/MenuItem.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/view/ui/menu/Menu.hx",
+		"/home/jason/workspace/domtools/haxelib/domtools/Style.hx",
+		"/home/jason/workspace/Vose-Video-Node/lib/haxe_remoting/src/haxe/remoting/Macros.hx",
+		"/home/jason/workspace/Vose-Video-Node/out/static/index.html",
+		"/home/jason/workspace/Vose-Video-Node/client.hxml",
+		"/home/jason/workspace/Vose-Video-Node/src/server/Server.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/ui/menu/MenuItem.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/ui/menu/Menu.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/server/api/Launcher.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/model/Project.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/model/ProjectInfo.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/model/VideoInfo.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/model/Video.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/model/Slide.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/model/DVDStructure.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/controller/Controller.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/server/api/Notifications.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/server/api/FileSystem.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/server/api/Scheduler.hx",
+		"/home/jason/workspace/Vose-Video-Node/lib/haxe_remoting/src/haxe/remoting/MacroUtil.hx",
+		"/home/jason/workspace/Vose-Video-Node/lib/haxe_remoting/src/haxe/remoting/NodeJsHtmlConnection.hx",
+		"/usr/share/haxe/std/haxe/macro/Context.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/VoseProductionGUI.hx",
+		"/home/jason/workspace/Vose-Video-Node/out/static/js/voseproduction.js",
+		"/home/jason/workspace/Vose-Video-Node/out/node.js",
+		"/home/jason/workspace/Vose-Video-Node/lib/haxe/remoting/NodeJsHtmlConnection.hx",
+		"/home/jason/workspace/Vose-Video-Node/server.hxml",
+		"/home/jason/workspace/Vose-Video-Node/src/client/controller/InterfaceController.hx",
+		"/home/jason/workspace/Vose-Video-Node/lib/nodejs_externs/js/node/Connect.hx",
+		"/usr/lib/haxe/lib/remoting/0,4/haxe/remoting/NodeJsHtmlConnection.hx",
+		"/usr/lib/haxe/lib/nodejs/0,6/js/Node.hx",
+		"/usr/lib/haxe/lib/nodejs/0,6/js/Lib.hx",
+		"/usr/lib/haxe/lib/nodejs/0,6/README",
+		"/usr/lib/haxe/lib/remoting/0,4/haxe/remoting/Macros.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/server/VoseProductionNode.hx",
+		"/home/jason/workspace/Vose-Video-Node/src/client/macros/CompileTimeLoad.hx",
+		"/home/jason/workspace/Vose-Video-Node/Readme.md",
+		"/home/jason/workspace/Vose-Video-Node/src/client/ExtInterface.hx",
+		"/home/jason/workspace/autoform/build.hxml",
+		"/home/jason/workspace/autoform/demo/out/index.html",
+		"/home/jason/workspace/autoform/notes.md",
+		"/home/jason/workspace/autoform/autoform/AbstractField.hx",
+		"/home/jason/workspace/autoform/autoform/ui/HiddenField.hx",
+		"/home/jason/workspace/autoform/autoform/ui/TextField.hx",
+		"/home/jason/workspace/domtools/domtools/EventManagement.hx",
+		"/home/jason/workspace/domtools/haxelib/domtools/DOMManipulation.hx",
+		"/home/jason/workspace/autoform/demo/Main.hx",
+		"/home/jason/workspace/Vose-Video-WebGUI/src/VoseProductionNode.hx",
+		"/usr/lib/haxe/lib/domtools/0,5,02/domtools/EventManagement.hx",
+		"/home/jason/workspace/autoform/demo/out/formstyle1.css",
+		"/usr/share/haxe/std/js/JQuery.hx",
+		"/home/jason/workspace/autoform/autoform/AbstractRenderer.hx",
+		"/usr/share/haxe/std/sys/db/SpodInfos.hx",
+		"/usr/share/haxe/std/sys/db/Manager.hx",
+		"/home/jason/workspace/ufront/src/model/Question.hx",
+		"/home/jason/workspace/domtools/test/Table.hx",
+		"/home/jason/workspace/domtools/domtools/AbstractCustomElement.hx",
+		"/home/jason/workspace/autoform/.dom.md~",
+		"/home/jason/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+		"/home/jason/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+		"/home/jason/Downloads/Web/uform/src/uform/property/Property.hx",
+		"/home/jason/Downloads/Web/uform/src/uform/property/IReadProperty.hx",
+		"/home/jason/Downloads/Web/uform/src/uform/model/generator/MacroExtractor.hx",
+		"/home/jason/Downloads/Web/uform/demo/DemoSchemaGenerator.hx",
+		"/home/jason/Downloads/Web/uform/demo/DemoSchema.hx",
+		"/home/jason/Downloads/Web/uform/demo/DemoControl.hx",
+		"/home/jason/workspace/spox/src/spox/Object.hx",
+		"/home/jason/workspace/spox/src/model/Invoice.hx",
+		"/home/jason/workspace/spox/src/MySpoxModel.hx",
+		"/home/jason/workspace/autoform/autoform/AutoForm.hx",
+		"/home/jason/workspace/spox/src/Main.hx",
+		"/home/jason/workspace/spox/src/spox/Manager.hx",
+		"/home/jason/tmp/haxetest/Test.hx",
+		"/var/tmp/kdecache-jason/krun/24309.0.Ext.hx",
+		"/var/tmp/kdecache-jason/krun/24290.0.HExpect.hx",
+		"/home/jason/WebProjects/extjs/haxe/ImportAll.hx",
+		"/home/jason/WebProjects/extjs/commands/02buildjs/BuildJS.hx",
+		"/usr/lib/haxe/lib/buildjs/1,05/src/BuildJS.hx",
+		"/home/jason/WebProjects/extjs/commands/02buildjs/run.hxml",
+		"/home/jason/WebProjects/extjs/build.hxml",
+		"/home/jason/WebProjects/extjs/download/src/core/src/lang/String.js",
+		"/home/jason/WebProjects/extjs/jsduck-json/Ext.String.json",
+		"/home/jason/WebProjects/extjs/download/ext.js",
+		"/usr/lib/haxe/lib/buildjs/1,05/src/tools/externs/parsers/JSDuckParser.hx",
+		"/usr/lib/haxe/lib/buildjs/1,05/src/tools/externs/parsers/ExtJsParser.hx",
+		"/usr/lib/haxe/lib/buildjs/1,05/src/tools/externs/parsers/SenchaTouchParser.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/window/MessageBox.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/MessageBox.hx",
+		"/home/jason/WebProjects/extjs/index.html",
+		"/home/jason/WebProjects/extjs/output.txt",
+		"/home/jason/WebProjects/extjs/haxe/ext/Component.hx",
+		"/home/jason/WebProjects/extjs/download/src/container/Container.js",
+		"/home/jason/WebProjects/extjs/jsduck-json/Ext.AbstractComponent.json",
+		"/home/jason/WebProjects/extjs/haxe/ext/container/AbstractContainer.hx",
+		"/home/jason/WebProjects/extjs/download/src/AbstractComponent.js",
+		"/home/jason/WebProjects/extjs/haxe/ext/dd/DragSource.hx",
+		"/home/jason/WebProjects/extjs/Commands to Run",
+		"/home/jason/WebProjects/extjs/haxe/ext/AbstractComponent.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/env/OS.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/env/Browser.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/Array.hx",
+		"/home/jason/WebProjects/extjs/jsduck-json/String.json",
+		"/usr/lib/haxe/lib/buildjs/1,05/src/tools/externs/parsers/AbstractParser.hx",
+		"/home/jason/WebProjects/extjs/haxe/Ext.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/String.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/slider/Thumb.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/Base.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/slider/Multi.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/slider/Single.hx",
+		"/home/jason/WebProjects/extjs/haxe/Main.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/Class.hx",
+		"/home/jason/WebProjects/extjs/haxe/Array.hx",
+		"/home/jason/WebProjects/extjs/haxe/ext/dd/build.hxml",
+		"/usr/lib/haxe/lib/buildjs/1,05/src/tools/externs/ExternGenerator.hx",
+		"/usr/share/haxe/std/js/Dom.hx",
+		"/usr/share/haxe/std/js/Selection.hx",
+		"/usr/share/haxe/std/js/XMLHttpRequest.hx"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/jason/workspace/Vose-Video-Node/lib"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Copy",
+			"Project",
+			"Project		",
+			"Project",
+			"no such object",
+			"Service",
+			"buildRemoteProxyClassInternal",
+			"service",
+			"getremoteproxyclassname",
+			"proxy",
+			"alert",
+			" Connect",
+			"Connect ",
+			"Connect",
+			"createSe",
+			"bubble",
+			"autoform.hasField(",
+			"meta",
+			"quoteField",
+			"quotefield",
+			"quote",
+			"argumentError",
+			"String",
+			"Array;",
+			"ext.Container ",
+			"ext.Container",
+			"event",
+			"Event",
+			"ublic static var engineName:String;\n	public static var engineVersion:String;\n	public static var isSecure:Bool;\n	public static var isStrict:Bool;\n	public static var name:String;\n	public static var version:Version;",
+			"Array <Dynamic>",
+			"concat",
+			"processFile",
+			"senchatouch",
+			"sencha",
+			"concat",
+			"targetFlags",
+			"var"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Array"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "logon.py",
+					"settings":
+					{
+						"buffer_size": 1881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Main.py",
+					"settings":
+					{
+						"buffer_size": 797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								299,
+								299
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gui/MainWindow.py",
+					"settings":
+					{
+						"buffer_size": 445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "gui/forms/Ui_MainWindow.py",
+					"settings":
+					{
+						"buffer_size": 6744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 960.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 104.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"list",
+				"src/easyas/CommandList.hx"
+			],
+			[
+				"edit",
+				"src/easyas/Editor.hx"
+			],
+			[
+				"commandl",
+				"src/easyas/CommandList.hx"
+			],
+			[
+				"giti",
+				".gitignore"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/jason/workspace/Vose-Video-WebGUI/Vose-Video-WebGUI.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true
+}

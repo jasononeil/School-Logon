@@ -1,0 +1,5 @@
+cd $( dirname "$0" )
+
+pyuic4 MainWindow.ui > Ui_MainWindow.py
+
+cd -
