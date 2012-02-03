@@ -2,7 +2,7 @@
 import sys
 import Logon
 
-from PyQt4 import QtCore, QtGui
+from PySide import QtCore, QtGui
 from gui.MainWindow import MainWindow
 
 if __name__ == "__main__":

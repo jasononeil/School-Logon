@@ -1,2 +1,2 @@
-.sublime_*
+*.sublime-*
 *.pyc

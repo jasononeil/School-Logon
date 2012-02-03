@@ -1,5 +1,5 @@
 from gui.forms.Ui_MainWindow import Ui_MainWindow
-from PyQt4 import QtCore, QtGui
+from PySide import QtCore, QtGui
 import Logon;
 
 class MainWindow(QtGui.QMainWindow):
