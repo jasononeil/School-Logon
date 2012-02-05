@@ -125,7 +125,6 @@ def connectToStudentPWSDrives(username, password, yeargroup):
 	openFileManager();
 
 def openFileManager():
-	print ("Disconnecting existing drives...");
 
 	# If we're on Linux
 	if sys.platform == "linux2":
