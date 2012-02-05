@@ -4,30 +4,51 @@ import re
 import os
 from datetime import date
 
+home = os.getenv('USERPROFILE') or os.getenv('HOME')
+networkDir = home + "/NetworkDrives/"
+
 def runCommand(cmd):
 	sys.stderr = sys.stdout
 	print cmd
-	proc = error=subprocess.Popen(cmd, stderr=subprocess.PIPE, stdout=subprocess.PIPE).communicate()[0].decode("windows-1252")
-	return_code = proc.wait()
+	args = cmd.split(" ")
+	proc = error=subprocess.Popen(args, stderr=subprocess.PIPE, stdout=subprocess.PIPE)
+	
+	if sys.platform == "win32": 
+		proc.communicate()[0].decode("windows-1252")
+	else:
+		proc.communicate()[0].decode("utf8")
+
 	output = ""
-	for line in proc.stdout:
-		output = output + "stdout: " + line.decode("windows-1252").rstrip() + "\n"
-	for line in proc.stderr:
-		output = output + "stderr: " + line.decode("windows-1252").rstrip() + "\n"
+	#for line in proc.stdout:
+	#	output = output + "stdout: " + line.decode("windows-1252").rstrip() + "\n"
+	#for line in proc.stderr:
+	#	output = output + "stderr: " + line.decode("windows-1252").rstrip() + "\n"
+	
 	return output
+	
+	return_code = proc.wait()
 	pass
 	
 
 def disconnectDrives():
 	print ("Disconnecting existing drives...");
-	#cmd = "net use * /delete /yes"
-	#runCommand(cmd)
+
+	# If we're on Linux
+	if sys.platform == "linux2":
+		pass
+	# If we're on Windows
+	elif sys.platform == "win32": 
+		cmd = "net use * /delete /yes"
+		runCommand(cmd)
+	# If we're on OSX
+	elif sys.platform == "darwin":
+		pass
+
+	
 	
 def mapDrive(driveLetter, server, share, username, password):
 	# map drive
 	note = ("Loading " + driveLetter + " drive:  ")
-	home = os.getenv('USERPROFILE') or os.getenv('HOME')
-	networkDir = home + "NetworkDrives/"
 	
 	# If we're on Linux
 	if sys.platform == "linux2":
@@ -92,15 +113,28 @@ def connectToStaffPWSDrives(username, password):
 	mapDrive("R", "192.168.0.5", "accounts", username, password);
 	mapDrive("W", "192.168.0.5", "seniorstaff", username, password);
 	# Maze drive?  How can we map, only if one of the preceeding worked?  Say, office
-
 	print ("Done");
+	openFileManager();
 
 def connectToStudentPWSDrives(username, password, yeargroup):
-	print ("Disconnecting existing drives...");
 	ydrive = str(yeargroup).zfill(2);
 	print ydrive
-	#disconnectDrives()
 	#mapDrive("S", "192.168.55.1", username, username, password);
 	#mapDrive("Y", "192.168.55.1", yeargroup, username, password);
-	
 	print ("Done");
+	openFileManager();
+
+def openFileManager():
+	print ("Disconnecting existing drives...");
+
+	# If we're on Linux
+	if sys.platform == "linux2":
+		cmd = "dolphin " + networkDir
+	# If we're on Windows
+	elif sys.platform == "win32": 
+		cmd = "explorer.exe /e,::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"
+	# If we're on OSX
+	elif sys.platform == "darwin":
+		cmd = "open " + networkDir
+	runCommand(cmd)
+	
